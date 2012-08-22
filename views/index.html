@@ -1,0 +1,10 @@
+<?php $view->extend('views/layout.html') ?>
+<?php $view->block('head'); ?>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools-yui-compressed.js"></script>
+<?php $view->blockend(); ?>
+<?php $view->block('body'); ?>
+		<p>this is index page. text:<?= $bar ?></p>
+		<div>
+<!--{more}-->
+		</div>
+<?php $view->blockend(); ?>
